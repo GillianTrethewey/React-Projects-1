@@ -1,0 +1,82 @@
+[
+    {
+        "name": "Angelina Johnson",
+        "position": "Chaser",
+        "house": "Gryffindor"
+    },
+    {
+        "name": "Marcus Flint",
+        "position": "Chaser",
+        "house": "Slytherin"
+    },
+    {
+        "name": "Zacharias Smith",
+        "position": "Chaser",
+        "house": "Hufflepuff"
+    },
+    {
+        "name": "Roger Davies",
+        "position": "Chaser",
+        "house": "Ravenclaw"
+    },
+    {
+        "name": "Fred Weasley",
+        "position": "Beater",
+        "house": "Gryffindor"
+    },
+    {
+        "name": "Vincent Crabbe",
+        "position": "Beater",
+        "house": "Slytherin"
+    },
+    {
+        "name": "Maxine O'Flaherty",
+        "position": "Beater",
+        "house": "Hufflepuff"
+    },
+    {
+        "name": "Duncan Inglebee",
+        "position": "Beater",
+        "house": "Ravenclaw"
+    },
+    {
+        "name": "Ronald Weasley",
+        "position": "Keeper",
+        "house": "Gryffindor"
+    },
+    {
+        "name": "Miles Bletchley",
+        "position": "Keeper",
+        "house": "Slytherin"
+    },
+    {
+        "name": "Herbert Fleet",
+        "position": "Keeper",
+        "house": "Hufflepuff"
+    },
+    {
+        "name": "Grant Page",
+        "position": "Keeper",
+        "house": "Ravenclaw"
+    },
+    {
+        "name": "Harry Potter",
+        "position": "Seeker",
+        "house": "Gryffindor"
+    },
+    {
+        "name": "Draco Malfoy",
+        "position": "Seeker",
+        "house": "Slytherin"
+    },
+    {
+        "name": "Cedric Diggory",
+        "position": "Seeker",
+        "house": "Hufflepuff"
+    },
+    {
+        "name": "Cho Chang",
+        "position": "Seeker",
+        "house": "Ravenclaw"
+    }
+]

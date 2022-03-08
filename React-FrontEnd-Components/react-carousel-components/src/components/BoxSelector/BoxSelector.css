@@ -1,0 +1,53 @@
+/* CSS modified from code originally by Mahesh Ambure
+** https://codepen.io/maheshambure21/pen/qZZrxy */
+
+.BoxSelector {
+  box-sizing: border-box;
+  color: #444;
+  font-size: 1rem;
+  line-height: 1.5;
+  height: 100px;
+  position: relative;
+  display: flex;
+  flex-flow: row nowrap;
+  -webkit-box-align: end;
+  align-items: flex-end;
+  -webkit-box-pack: center;
+  justify-content: center;
+}
+
+.BoxSelector-caption {
+  position: absolute;
+  bottom: -20px;
+  font-size: 16pt;
+}
+
+.BoxSelector-square {
+  width: 12px;
+  height: 12px;
+  margin: 2rem 12px;
+  border-radius: 50%;
+  z-index: 10;
+  outline: 6px solid #ccc;
+  outline-offset: -6px;
+  box-shadow: 0 0 0 0 #333, 0 0 0 0 rgba(51, 51, 51, 0);
+  cursor: pointer;
+  appearance: none;
+  backface-visibility: hidden;
+}
+
+.BoxSelector--selected {
+  animation: getCheckedAnimation 0.4s linear forwards;
+}
+
+@keyframes getCheckedAnimation {
+  50% {
+    outline-color: #333;
+    box-shadow: 0 0 0 12px #333, 0 0 0 36px rgba(51, 51, 51, 0.2);
+  }
+  100% {
+    outline-color: #333;
+    box-shadow: 0 0 0 0 #333, 0 0 0 0 rgba(51, 51, 51, 0);
+  }
+}
+

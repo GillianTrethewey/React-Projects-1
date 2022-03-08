@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: url('https://i.imgur.com/Zcje94e.jpg') fixed;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.App-header {
+  background-color: rgba(0, 0, 0, 0.3);
+  box-shadow: inset 0 0 20px 20px rgba(127, 127, 127, 0.3);
+  border-bottom: 3px white ridge;
+  height: 140px;
+  padding: 10px;
+  color: white;
+  display: flex;
+  align-items: center;
+  padding-left: 20vw;
+  padding-right: 20vw;
+}
+
+.App-header img {
+    max-height: 100%;
+}
+
+.App-title {
+  font-size: 3.5em;
+  font-weight: normal;
+  font-family: serif;
+  font-variant: small-caps;
+}
+
+.TeamManager {
+  margin-left: 20vw;
+  margin-right: 20vw;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.TeamManager-position {
+  min-height: 140px;
+  padding: 10px;
+  color: white;
+}
+
+.TeamManager-position h2 {
+  font-size: 2.0em;
+  font-weight: normal;
+  font-family: serif;
+  font-variant: small-caps;
+}
+
+.TeamManager-character {
+  background-color: rgba(255, 255, 255, 0.7);
+  border: 2px ridge white;
+  color: black;
+  margin-bottom: 20px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.TeamManager-character h3,
+.TeamManager-character h4 {
+    margin: 0;
+}
+
+

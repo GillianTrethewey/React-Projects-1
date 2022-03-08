@@ -1,0 +1,28 @@
+.ChannelSelector {
+    grid-column: 1;
+    grid-row: 2 / span 2;
+    background: #4D394B;
+    padding-top: 10px;
+    height: calc(100vh - 110px);
+    color: #CAB6A9;
+    user-select: none;
+}
+
+
+.ChannelSelector-channelHeader {
+    font-size: 18pt;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.ChannelSelector-channel {
+    font-size: 18pt;
+    cursor: pointer;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+.ChannelSelector-channel--selected {
+    background: #4C9689;
+    color: white;
+}

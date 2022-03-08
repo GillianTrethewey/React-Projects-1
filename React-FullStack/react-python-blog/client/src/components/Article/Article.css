@@ -1,0 +1,22 @@
+.Article {
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    grid-template-rows: 3em auto;
+    grid-column-gap: 10px;
+    align-items: center;
+}
+
+.Article-title {
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.Article-image {
+    grid-column: 1;
+    grid-row: 1 / 3;
+}
+
+.ArticleImage {
+    float: left;
+    margin-right: 20px;
+}

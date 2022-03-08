@@ -1,0 +1,24 @@
+.Nav {
+  background-color: rgba(0, 0, 0, 0.3);
+  box-shadow: inset 0 0 20px 20px rgba(127, 127, 127, 0.3);
+  border-bottom: 3px white ridge;
+  height: 140px;
+  padding: 10px;
+  color: white;
+  display: flex;
+  align-items: center;
+  padding-left: 20vw;
+  padding-right: 20vw;
+}
+
+.Nav img {
+  max-height: 100%;
+}
+
+.Nav-title {
+  font-size: 3.5em;
+  font-weight: normal;
+  font-family: serif;
+  font-variant: small-caps;
+}
+

@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "./static/css/main.9d81dc4c.chunk.css",
+    "main.js": "./static/js/main.7266e59a.chunk.js",
+    "main.js.map": "./static/js/main.7266e59a.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.db823558.js",
+    "runtime-main.js.map": "./static/js/runtime-main.db823558.js.map",
+    "static/js/2.2ace43ca.chunk.js": "./static/js/2.2ace43ca.chunk.js",
+    "static/js/2.2ace43ca.chunk.js.map": "./static/js/2.2ace43ca.chunk.js.map",
+    "index.html": "./index.html",
+    "precache-manifest.59fc331ac09beadcbcee6f4dc2d6364b.js": "./precache-manifest.59fc331ac09beadcbcee6f4dc2d6364b.js",
+    "service-worker.js": "./service-worker.js",
+    "static/css/main.9d81dc4c.chunk.css.map": "./static/css/main.9d81dc4c.chunk.css.map",
+    "static/js/2.2ace43ca.chunk.js.LICENSE.txt": "./static/js/2.2ace43ca.chunk.js.LICENSE.txt",
+    "static/media/cat.png": "./static/media/cat.2d9a785c.png",
+    "static/media/cow.png": "./static/media/cow.d67ef2a2.png",
+    "static/media/dog.png": "./static/media/dog.7022ad4e.png",
+    "static/media/pig.png": "./static/media/pig.af0d67e8.png",
+    "static/media/rat.png": "./static/media/rat.f3c5a7bc.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.db823558.js",
+    "static/js/2.2ace43ca.chunk.js",
+    "static/css/main.9d81dc4c.chunk.css",
+    "static/js/main.7266e59a.chunk.js"
+  ]
+}

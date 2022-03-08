@@ -1,0 +1,15 @@
+.NewMessage {
+    grid-row: 3;
+    grid-column: 2;
+    background: white;
+    display: grid;
+    grid-template-columns: 1fr 110px 10px;
+    grid-template-rows: 70px 10px;
+}
+
+.NewMessage input {
+    font-size: 14pt;
+    border: none;
+    padding: 10px;
+    margin: 15px;
+}
